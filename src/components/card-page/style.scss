@@ -1,0 +1,21 @@
+.card-page{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+.card-item{
+    width: 350px;
+    height: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 black;
+    img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
